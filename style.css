@@ -136,6 +136,18 @@ body {
     filter: brightness(90%);
   }
 
+.title {
+    background: linear-gradient(135deg, #413506, #1b0b46); /* Adjust the colors as desired */
+    /* background-color: #0e0124; */
+    margin-bottom: -80px;
+  }
+
+  .title h1 {
+    margin-top: -60px;
+    margin-bottom: -190px;
+  }
+
+
   /* Student Info Section */
   .student-info {
     background-color: #2b0f46;
