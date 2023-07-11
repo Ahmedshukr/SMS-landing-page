@@ -139,8 +139,8 @@ body {
  .title {
     background: linear-gradient(135deg, #413506, #1b0b46); /* Adjust the colors as desired */
 /*     background-color: #0e0124; */
-/*     margin-bottom: -80px; */
-     color: blue;
+    margin-bottom: -80px;
+/*      color: blue; */
   }
 
   .title  h1 {
