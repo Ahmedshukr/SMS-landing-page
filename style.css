@@ -58,7 +58,6 @@ body {
   }
   
   .container {
-    
     color: #fff;
     padding: 80px;
     text-align: center;
@@ -111,6 +110,7 @@ body {
 
   .about p {
     filter: brightness(90%);
+    /* text-align: justify; */
   }
 
 
@@ -136,24 +136,24 @@ body {
     filter: brightness(90%);
   }
 
- .title {
+
+
+  .title {
     background: linear-gradient(135deg, #413506, #1b0b46); /* Adjust the colors as desired */
-/*     background-color: #0e0124; */
-    margin-bottom: -80px;
-/*      color: blue; */
+    /* background-color: #0e0124; */
+    margin-bottom: -115px;
   }
 
-  .title  h1 {
-    margin-top: -60px;
+  .title h1 {
+    margin-top: -80px;
     margin-bottom: -190px;
-    color: blue;
   }
-
 
   /* Student Info Section */
   .student-info {
     background-color: #2b0f46;
     padding: 10px 0;
+    margin-top: -20px;
   }
 
   .student-info h1 {
@@ -164,11 +164,11 @@ body {
     display: flex;
     justify-content: flex-start;
     /* align-items: center; */
-    gap: 80px;
+    gap: 30px;
   }
   
   .card-image img {
-    width: 800px; /* Adjust the width as needed */
+    width: 500px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px;
     margin-left: -40px;
@@ -182,13 +182,14 @@ body {
   }
   
   .card-description h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     text-align: left;
     margin-bottom: 10px; /* Adjust the spacing as needed */
   }
   
   .card-description p {
+    font-size: 14px;
     margin: 0;
     text-align: justify;
     margin-top: 10px; /* Adjust the spacing as needed */
@@ -211,6 +212,7 @@ body {
     border-radius: 4px;
     margin-top: 30px;
     margin-left: 0; /* Added margin-left */
+    font-size: 14px;
   }
   
   .read-more-button:hover {
@@ -238,7 +240,7 @@ body {
   }
   
   .student-details .card-image img {
-    width: 800px; /* Adjust the width as needed */
+    width: 500px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     border-radius: 4px;
     margin-right: -50px;
@@ -282,11 +284,6 @@ body {
   
   
   
-  
-
-
-  
-  
   .features {
     background-color: #0e0124;
     padding: 40px 0;
@@ -308,11 +305,19 @@ body {
   footer {
     background-color: #0e0124;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   
   footer p {
     margin: 0;
   }
+
+
+  @media only screen and (max-width: 600px){
+
+    
+    
+  }
+
   
